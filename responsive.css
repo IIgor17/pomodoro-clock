@@ -1,0 +1,42 @@
+@media screen and (max-width:600px) {
+    .ready {
+        font-size: 20px;
+    }
+    .circle-red {
+        width: 25vw;
+        height: 25vw;
+        margin-top: 40%;
+        margin-left: -25%;
+    }
+    
+    .circle-blue {
+        width: 35vw;
+        height: 35vw;
+        margin-top: 40%;
+        margin-left: 25%;
+    }
+    
+    .button {
+        margin-left: -3.9%;
+        margin-top: 40%;
+        font-size: 4vw;
+    }
+    .timer {
+        margin-left: 25%;
+        margin-top: 40%;
+        padding: 0 1.2vw;
+        border-radius: 1vw;
+        font-size: 4vw;
+    }
+    .increment, .decrement {
+        padding: 0 0.5vw 0;
+        border-radius: 40%;
+        font-size: 2vw;
+        max-width: 2vw;
+        max-height: 2vw;
+    }
+    .options__work, .options__break {
+        font-size: 3vw;
+        margin: -1vw;
+    }
+}
