@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1> Pomodoro.timer()</h1>
+    </div>
+    <!-- Ready? Go -->
+    <div class="header">
+        <h2 class="ready">Ready?</h2>
+    </div>
+    
+
+    <!-- Main body -->
+    <div class="container">
+        <div class="options">
+            <div class="options__work">
+                <p>.work() 
+                    <button class="btn decrement dec-work">-</button><span class="setTime time-work">25</span><button class="btn increment inc-work">+</button>
+                    min
+                    
+                </p>
+            </div>
+            <div class="options__break">
+                <p>.break() 
+                    <button class="btn decrement dec-break">-</button><span class="setTime time-break"> 5</span><button class="btn increment inc-break">+</button>
+                    min
+                </p>
+            </div>
+        </div>
+
+        <div class="circle-red"></div>
+
+        <div class="button">
+            <p id="playButton" class="unselectable">▶</p>    
+        </div>
+
+        <div class="timer">
+            00:00:00
+        </div>
+        <div class="circle-blue"></div>
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

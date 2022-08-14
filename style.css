@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3vw;
+    color: #212121;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-red {
+    width: 17vw;
+    height: 17vw;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: -17%;
+    background: rgb(131,58,180);
+    background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    opacity: 0.6;
+}
+
+.circle-blue {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 17%;
+    background: rgb(129,88,241);
+    background: linear-gradient(333deg, rgba(129,88,241,1) 0%, rgba(185,244,255,1) 48%, rgba(0,212,255,1) 84%);
+    opacity: 0.7;
+    transition: 1000ms;
+}
+
+.button {
+    margin-left: -3.9%;
+    margin-top: 40%;
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    outline: none;
+}
+
+.btn:hover, .button:hover {
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.green {
+    filter: hue-rotate(100deg);
+    transition: 1000ms;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: -33%;
+    margin-top: 40%;
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    color: #212121;
+}
+.options__work, .options__break {
+    font-size: 2.5vw;
+    margin: 0;
+    height: min-content;
+}
+
+.timer {
+    margin-left: 17%;
+    margin-top: 40%;
+    position: absolute;
+    font-size: 3vw;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0 0.8vw;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.315);
+    color: #223a5a;
+}
+
+
+.options__break {
+    margin-top: -2.5vw;
+}
+
+.setTime {
+    color: #fff;
+    padding: 5px;
+}
+
+.increment, .decrement {
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.315);
+    padding: 0 0.5vw 0;
+    background-color: #fff;
+    border-radius: 40%;
+    color: #fff;
+    font-size: 1.5vw;
+    border: none;
+    max-width: 2vw;
+    max-height: 2vw;
+}
+
+.decrement {
+    background-color: #5f96ca;
+}
+.increment {
+    background-color: #fa452d;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.ready {
+    font-size: 30px;
+}
+
+.unselectable {
+    --webkit-touch-callout: none; 
+    --webkit-user-select: none;   
+    --khtml-user-select: none;    
+    --moz-user-select: none;      
+    --ms-user-select: none;
+    user-select: none;
+}   
