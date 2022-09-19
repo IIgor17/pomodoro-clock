@@ -1,3 +1,3 @@
 # pomodoro-clock
  
-### Small pomodoro clock app
+### Small pomodoro clock app (unfinished)
